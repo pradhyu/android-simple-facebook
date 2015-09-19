@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Simple Facebook Sample</string>
-    <string name="app_id">728615400528729</string>
+    <string name="app_id">743827952395837</string>
     <string name="logout">Logout</string>
     <string name="login">Login</string>
     <string name="get_friends">Get friends</string>

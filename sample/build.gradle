@@ -1,9 +1,16 @@
 apply plugin: 'com.android.application'
 
 android {
+  signingConfigs {
+    config {
+      keyAlias 'release'
+      keyPassword 'failword'
+      storeFile file('C:/Users/i65626/.android/androidwin.cfg')
+      storePassword 'failword'
+    }
+  }
   compileSdkVersion 22
   buildToolsVersion "22.0.1"
-
   defaultConfig {
     applicationId "com.sromku.simple.fb.example"
     minSdkVersion 14
@@ -11,7 +18,6 @@ android {
     versionCode 1
     versionName "1.0"
   }
-
   buildTypes {
     release {
       minifyEnabled true
